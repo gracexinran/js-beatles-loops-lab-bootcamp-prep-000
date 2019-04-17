@@ -17,15 +17,22 @@ function theBeatlesPlay(musicians,instruments){
   return array;
 }
 
-function johnLennonFacts(fact){
+// function johnLennonFacts(fact){
+//   var array = [];
+//   var i;
+//   for(i=0;i<fact.length;i++){
+//     array.push(fact[i]+"!!!")
+//   }
+//   return array;
+// }
+
+function johnLennonFacts(facts){
   var array = [];
-  var i;
-  for(i=0;i<fact.length;i++){
-    array.push(fact[i]+"!!!")
-  }
+  for(var i=0; i<facts.length; i++){
+    array.push(`${facts[i]}!!!`);
+  };
   return array;
 }
-
 
 function iLoveTheBeatles(p){
   var array = [];
